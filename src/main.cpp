@@ -3,7 +3,7 @@
    Materia: Laboratorio de Programación (LPR)
    E.E.S.T. N° 1 "Eduardo Ader" — Vicente López
    Curso: 5° Año
-   Profesor: Prof. York Estudiante: Prof. York
+   Profesor: Prof. York
    Estudiante: Lopilato Luisana
    Archivo: main.cpp
    Objetivo: Calcular el area de un circulo mediante funciones modulares
@@ -29,7 +29,7 @@ int main() {
     // Modifiquen la salida de pantalla agregando su Nombre y Apellido reales.
     // ====================================================================
     cout << "=====================================================" << endl;
-    cout << "  CALCULADORA DE AREA MODULAR - ESTUDIANTE: Lopilato Luisana  " << endl;
+    cout << "  CALCULADORA DE AREA MODULAR - ESTUDIANTE: Luisana Lopilato" << endl;
     cout << "=====================================================" << endl;
 
     cout << "=> Ingrese el radio del circulo/diana (en cm): ";
@@ -45,11 +45,6 @@ int main() {
     // 2. LLAMADA / INVOCACIÓN DE LA FUNCIÓN (COMPLETAR)
     // Convoquen al módulo 'calcularAreaCirculo' pasándole 'radioEstudiante'
     // y guarden el resultado en una nueva variable decimal llamada 'areaFinal'.
-    //
-    // 💡 SINTAXIS DE REFERENCIA (EJEMPLO GUÍA):
-    //    Si quisiéramos llamar a una función 'calcularIva' que recibe 'precio'
-    //    y guardar el resultado en 'ivaTotal', escribiríamos:
-    //         double ivaTotal = calcularIva(precio);
     // ====================================================================
     
     double areaFinal = calcularAreaCirculo(radioEstudiante);
@@ -57,13 +52,9 @@ int main() {
     // ====================================================================
     // 3. SALIDA DE DATOS (COMPLETAR)
     // Muestren en pantalla el área calculada utilizando 'areaFinal'.
-    //
-    // 💡 SINTAXIS DE REFERENCIA (EJEMPLO GUÍA):
-    //    Para mostrar texto y variables combinadas en pantalla:
-    //         cout << "El total es: " << costoTotal << " pesos." << endl;
     // ====================================================================
     
-    cout << "=> El área del círculo es: " << areaFinal << " cm^2" << endl;
+    cout << "=> El area calculada de la diana es: " << areaFinal << " cm2." << endl;
 
     // ====================================================================
     // BONUS GAMIFICACIÓN: RENDER DE LA DIANA EN CONSOLA
@@ -101,16 +92,10 @@ int main() {
 // 4. DEFINICIÓN / DESARROLLO DE LA FUNCIÓN (COMPLETAR)
 // Implementen la fórmula matemática de la geometría utilizando variables
 // locales y la constante de pi locked en memoria.
-//
-// 💡 SINTAXIS DE REFERENCIA (EJEMPLO GUÍA):
-//    Para calcular un valor dentro de la función y retornarlo:
-//         double total = base * altura;
-//         return total;
 // ====================================================================
 double calcularAreaCirculo(double r) {
     const double PI = 3.1415926535;
     
     double area = PI * r * r;
     return area;
-    
 }
