@@ -1,18 +1,11 @@
-# Cálculo de área (Proyecto: Diseño modular en C++)
+Proyecto: enfoque modular
 
-Este repositorio contiene la propuesta de la Actividad 3 — Diseño modular y top-down — en C++.
+Integrantes: Leon Melgarejo
+
+Descripción: Repositorio con la suite de retos del taller de repaso general. Contiene entregables, manuales y evidencias.
 
 Estructura:
 
-- src/main.cpp : Código fuente modular que calcula el área de un círculo y muestra una "diana" en ASCII.
-- docs/InformeProyectoCALCULOAREA.pdf : marcador de posición para el informe en PDF (entregable).
-- capturas/ : carpeta para evidencias (reemplazar los archivos por capturas reales .png antes de entregar).
+docs/ : Entregables formales y manuales src/ : Código fuente en C++ con main unificado capturas/ : Evidencias de ejecución Cómo usar Compilar con g++:
 
-Instrucciones rápidas:
-
-1. Compilar:
-   g++ src/main.cpp -o bin/calculoarea
-2. Ejecutar:
-   ./bin/calculoarea
-
-Licencia: MIT (ver LICENSE)
+g++ -std=c++17 -O2 src/main.cpp -o bin/repasogeneral ./bin/repasogeneral
